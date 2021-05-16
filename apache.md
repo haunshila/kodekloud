@@ -37,3 +37,9 @@ Again copy from tmp folder to mentioned directory
 > cp /tmp/index.html /var/www/html/sysops
 * Step 7: Test
 > curl -u james http://127.0.0.1:8080/sysops/index.html
+
+
+- Ref : 
+1. https://www.nbtechsupport.co.in/2021/01/configure-protected-directories-in.html 
+2. https://youtu.be/jcp68jEgiVE
+
