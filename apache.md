@@ -3,11 +3,15 @@
 Change username, server and directory name according 
 to task when you retry it
 * Step 1: login to server mention in Task
-> ssh banner@stapp03
-> sudo -i
+```
+ssh banner@stapp03
+sudo -i
+```
 * Step 2: Add a user and set password & restart httpd
-- htpasswd -c /etc/httpd/.htpasswd james
-- systemctl restart httpd
+```
+htpasswd -c /etc/httpd/.htpasswd james
+systemctl restart httpd
+```
 * Step 3: Edit configuration
 > vi /etc/httpd/conf/httpd.conf 
 
