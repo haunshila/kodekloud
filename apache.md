@@ -11,8 +11,8 @@ systemctl restart httpd
 * Step 3: Edit configuration
 vi /etc/httpd/conf/httpd.conf 
 
-# Scroll down to the <Directory> section for 
-# "/var/www/html" and change  
+###### Scroll down to the <Directory> section for 
+###### "/var/www/html" and change  
 
 AllowOverride to All
 * Step 4: Create mentioned Directory
