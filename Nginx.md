@@ -5,7 +5,11 @@ cat /etc/*release
 cat /etc/*version
 
 ```
-
+Connect to backup server and switched to root 
+```
+# Ater ssh into server
+sudo -i
+```
 ##### Install Apache
 Use the following steps to install Apache:
 
@@ -28,16 +32,39 @@ Enable the service to start automatically on boot:
 ```
  systemctl enable httpd.service
 ```
+##### Install nginx
+```
+yum install epel-release
+yum install nginx
+```
+* Go to nginx config by typing
+```
+ vi /etc/nginx/nginx.conf
+```
+* Edit the config as follows. For reverse proxy add the proxy_pass in location tab like this config image.
+ 
+ Save it and restart nginx
 
-Open up port 80 for web traffic:
+##### Test the configuration
 
- firewall-cmd --add-service=http --permanent
-Reload the firewall:
-
- firewall-cmd --reload
-Confirm successful installation by entering your server’s IP address in a browser to view the default Apache test page.
-
+* Go backe to jump host and copy index.html file 
+```
+scp /home/index.html backup_server_user@backup_server_ip:/tmp
+```
+* Now switch to backup server and copy it to httpd document root
+```
+cp /tmp/index.html /var/www/html
+```
+* Restart Apache server
+```
+systemctl restart httpd
+```
+* Finally move to jump_host and check
+```
+# curl http://<BACKUP_SERVER_IP>:<NGINX-PORT>
+curl http://172.16.238.16:8093
+```
 Ref:
-https://www.linuxpathfinder.com/How-to-Install-Apache-using-yum-in-Linux
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7
-https://phoenixnap.com/kb/nginx-reverse-proxy
+* https://www.linuxpathfinder.com/How-to-Install-Apache-using-yum-in-Linux
+* https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7
+* https://phoenixnap.com/kb/nginx-reverse-proxy
