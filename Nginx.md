@@ -1,4 +1,4 @@
-#### linux nginx reverse proxy
+## linux nginx reverse proxy
 * check linux OS version
 ```
 cat /etc/*release
@@ -10,7 +10,7 @@ Connect to backup server and switched to root
 # Ater ssh into server
 sudo -i
 ```
-##### Install Apache
+### Install Apache
 Use the following steps to install Apache:
 
 Run the following command:
@@ -32,7 +32,7 @@ Enable the service to start automatically on boot:
 ```
  systemctl enable httpd.service
 ```
-##### Install nginx
+### Install nginx
 ```
 yum install epel-release
 yum install nginx
@@ -46,7 +46,7 @@ yum install nginx
  
  Save it and restart nginx
 
-##### Test the configuration
+### Test the configuration
 
 * Go backe to jump host and copy index.html file 
 ```
