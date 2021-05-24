@@ -5,18 +5,30 @@ cat /etc/*release
 cat /etc/*version
 
 ```
-Install Apache
+
+##### Install Apache
 Use the following steps to install Apache:
 
 Run the following command:
-
+```
  yum install httpd
+```
+Update the port in /etc/httpd/conf/httpd.conf
+```
+vi  /etc/httpd/conf/httpd.conf
+
+Listen 6000
+
+```
 Use the systemd systemctl tool to start the Apache service:
-
+```
  systemctl start httpd
+```
 Enable the service to start automatically on boot:
-
+```
  systemctl enable httpd.service
+```
+
 Open up port 80 for web traffic:
 
  firewall-cmd --add-service=http --permanent
