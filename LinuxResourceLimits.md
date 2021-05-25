@@ -11,10 +11,14 @@ cat /etc/security/limits.conf | grep nproc | grep -v ^#
 
 or
 
+// login as nfsuser
 su - nfsuser
+// check soft limit of logged in user
 ulimit -u -S
+// check hard limit
 ulimit -u -H
 ```
+
 
 Ref:
 * https://linuxhint.com/set_max_user_processes_linux/
