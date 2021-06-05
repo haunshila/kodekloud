@@ -37,3 +37,5 @@ backend http_back
 haproxy -f /etc/haproxy/haproxy.cfg
 systemctl enable haproxy && service haproxy start && service haproxy status
 ```
+Ref:
+* https://upcloud.com/community/tutorials/haproxy-load-balancer-centos/
