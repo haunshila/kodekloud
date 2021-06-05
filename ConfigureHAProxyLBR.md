@@ -13,7 +13,9 @@ $ yum -y install haproxy
 cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.bkp
 vi /etc/haproxy/haproxy.cf
 ```
-* Edit the frontend and backend section of app
+#### HAProxy 101
+![HAProxy LBR](https://github.com/haunshila/kodekloud/blob/master/haproxy-load-balancer.png)
+#### Edit the frontend and backend section of cfg file
 - Update the frontend port and map appropriate backend
 ```
 frontend http_front
