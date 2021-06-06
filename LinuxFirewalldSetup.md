@@ -14,13 +14,12 @@ yum install firewalld -y
 systemctl start firewalld && systemctl enable firewalld && systemctl status firewalld
 ```
 
-* find nginx port 8091
 
 * adding firewall rules to allow and block
 ```
-firewall-cmd --zone=public --add-port=8091/tcp --permanent
+firewall-cmd --zone=public --add-port=<NGINX_PORT>/tcp --permanent
 firewall-cmd --permanent --zone=public --add-service={http,https}
-firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="172.16.238.14" port protocol=tcp port=8082 accept'
+firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="<LBR IP>" port protocol=tcp port=<APACHE_PORT> accept'
 firewall-cmd --permanent --zone=public --change-interface=wan
 
 firewall-cmd --reload
