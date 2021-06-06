@@ -43,3 +43,5 @@ root /usr/share/nginx/html;
 systemctl restart nginx
 systemctl status httpd
 ```
+Ref:
+* https://www.linode.com/docs/guides/introduction-to-firewalld-on-centos/
