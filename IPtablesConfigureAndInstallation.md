@@ -5,7 +5,7 @@ Use the following steps to install and configure iptables:
 
 Install the iptables-services package (if it is not already installed) by running the following command:
 ```
-$ yum install iptables-services
+$ yum install -y iptables-services
 ```
 Enable the service to start at boot time by running the following commands:
 ```
@@ -15,8 +15,9 @@ Next, add iptables rules. You can do this in either of the following ways:
 
 From the command-line interface (CLI), by running commands similar to iptables -I INPUT ...
 ```
-iptables -R INPUT -p tcp --destination-port 8084 -s 172.16.238.14 -j ACCEPT
-iptables -A INPUT -p tcp --destination-port 8084 -j DROP
+iptables -I INPUT -p tcp --destination-port 8084 -j DROP
+
+iptables -I INPUT -p tcp --destination-port 8084 -s 172.16.238.14 -j ACCEPT
 
 service iptables save
 ```
