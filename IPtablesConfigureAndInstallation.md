@@ -15,9 +15,9 @@ Next, add iptables rules. You can do this in either of the following ways:
 
 From the command-line interface (CLI), by running commands similar to iptables -I INPUT ...
 ```
-iptables -I INPUT -p tcp --destination-port 8084 -j DROP
+iptables -I INPUT -p tcp --destination-port 6400 -j DROP
 
-iptables -I INPUT -p tcp --destination-port 8084 -s 172.16.238.14 -j ACCEPT
+iptables -I INPUT -p tcp --destination-port 6400 -s 172.16.238.14 -j ACCEPT
 
 service iptables save
 ```
