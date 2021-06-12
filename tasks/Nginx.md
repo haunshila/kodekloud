@@ -42,7 +42,7 @@ yum install nginx
  vi /etc/nginx/nginx.conf
 ```
 * Edit the config as follows. For reverse proxy add the proxy_pass in location tab like this config image.
- ![NGINX configuration](https://github.com/haunshila/kodekloud/blob/master/nginx_config_reverse_proxy.png)
+ ![NGINX configuration](https://github.com/haunshila/kodekloud/blob/master/images/nginx_config_reverse_proxy.png)
  
  Save it and restart nginx
 

@@ -55,7 +55,7 @@ This command will find and copy all mp3 type files from ~/Linux directory to ~/o
 
 You can verify it using "tree" command at both locations like below.
 
-![output-image](https://github.com/haunshila/kodekloud/blob/master/LinuxFind.png)
+![output-image](https://github.com/haunshila/kodekloud/blob/master/images/LinuxFind.png)
 
 As you see in the above output, the destination directory only has the mp3 files and its directory structure is same as source directory.
 
