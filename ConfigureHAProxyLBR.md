@@ -14,7 +14,7 @@ cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.bkp
 vi /etc/haproxy/haproxy.cf
 ```
 #### HAProxy 101
-![HAProxy LBR](https://github.com/haunshila/kodekloud/blob/master/haproxy-load-balancer.png)
+![HAProxy LBR](https://github.com/haunshila/kodekloud/blob/master/images/haproxy-load-balancer.png)
 #### Edit the frontend and backend section of cfg file
 - Update the frontend port and map appropriate backend
 ```
