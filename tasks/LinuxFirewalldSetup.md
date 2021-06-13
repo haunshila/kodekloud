@@ -1,3 +1,4 @@
+### Linux Firewalld Setup
 * To check the status of nginx and httpd
 ```
 systemctl status nginx && systemctl status httpd
