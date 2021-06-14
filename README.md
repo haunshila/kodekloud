@@ -13,3 +13,4 @@
 11. [Apache Web Securtiy](tasks/WebSecurity.md)
 12. [Apache Protected Directories](tasks/apache.md)
 13. [Install and Configure PostgreSQL](tasks/InstallAndConfigurePostgreSQL.md)
+14. [Linux TimeZone Settings](tasks/LinuxTimezoneSetting.md)
