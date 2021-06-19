@@ -14,3 +14,4 @@
 12. [Apache Protected Directories](tasks/apache.md)
 13. [Install and Configure PostgreSQL](tasks/InstallAndConfigurePostgreSQL.md)
 14. [Linux TimeZone Settings](tasks/LinuxTimezoneSetting.md)
+15. [Linux NTP install and configure](tasks/LinuxNTP.md)
