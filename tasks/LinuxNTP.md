@@ -15,7 +15,7 @@ file i.e. ‘/etc/ntp.conf’. For this tutorial, we will be using the ntp serve
 
 ```
 $ sudo vim /etc/ntp.conf
-```
+
 
 server 0.us.pool.ntp.org
 
@@ -25,7 +25,7 @@ server 2.us.pool.ntp.org
 
 server 3.us.pool.ntp.org
 
-
+```
 * Also enable logging to troubleshoot any issues with ntp, to do this make the entry for following line in the same file,
 ```
 logfile /var/log/ntp.log
