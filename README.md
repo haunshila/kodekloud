@@ -15,3 +15,8 @@
 13. [Install and Configure PostgreSQL](tasks/InstallAndConfigurePostgreSQL.md)
 14. [Linux TimeZone Settings](tasks/LinuxTimezoneSetting.md)
 15. [Linux NTP install and configure](tasks/LinuxNTP.md)
+
+
+
+
+Anyone can raise a PR and suggest changes if needed.
