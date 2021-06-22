@@ -3,9 +3,6 @@
 adduser USERNAME -s /sbin/nologin
 ```
 
-Ref:
-* https://www.tecmint.com/add-users-in-linux/
-
 ### Create linux user with expiry
 ```
 $ sudo useradd -e YYYY-MM-DD username
@@ -18,3 +15,6 @@ To open the file you can either use cat or less :
 ```
 less /etc/passwd
 ```
+
+Ref:
+* https://www.tecmint.com/add-users-in-linux/
