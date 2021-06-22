@@ -1,6 +1,7 @@
+# KodeKloud Engineer Tasks
 This repository contains KodeKloud Engineer tasks solutions along with references for System Administrators and DevOps Engineers.
 
-# KodeKloud Engineer Tasks for System Administrators
+### System Administrators
 
 1.  [Create Linux Users](tasks/LinuxUsers.md)
 2.  [Application Security at Firewall](tasks/ApplicationSecurity.md)
