@@ -19,7 +19,7 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 14. [Linux TimeZone Settings](tasks/LinuxTimezoneSetting.md)
 15. [Linux NTP install and configure](tasks/LinuxNTP.md)
 16. [Linux Postfix Troubleshooting](tasks/LinuxPostfix.md)
-
+17. [DNS Troubleshooting](tasks/DNSTroubleshooting.md)
 
 
 
