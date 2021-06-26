@@ -20,6 +20,7 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 15. [Linux NTP install and configure](tasks/LinuxNTP.md)
 16. [Linux Postfix Troubleshooting](tasks/LinuxPostfix.md)
 17. [DNS Troubleshooting](tasks/DNSTroubleshooting.md)
+18. [Linux String Substitute](tasks/LinuxStringSubstitute.md)
 
 
 
