@@ -21,6 +21,8 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 16. [Linux Postfix Troubleshooting](tasks/LinuxPostfix.md)
 17. [DNS Troubleshooting](tasks/DNSTroubleshooting.md)
 18. [Linux String Substitute](tasks/LinuxStringSubstitute.md)
+19. [MariaDB Troubleshooting](tasks/MariaDB.md)
+20. [Linux String Substitute (sed)](tasks/sed.md)
 
 
 
