@@ -1,4 +1,4 @@
-###Linux String Substitute (sed)
+### Linux String Substitute (sed)
 
 a. Delete all lines containing word software and save results in /home/BSD_DELETE.txt file. (Please be aware of case sensitivity)
 ```
