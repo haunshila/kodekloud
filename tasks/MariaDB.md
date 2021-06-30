@@ -25,7 +25,7 @@ systemctl status mariadb
 journalctl -u mariadb
 ```
 Once you see that systemctl status and journalctl -xe are not useful, you should always search in var/log/mariadb/mariadb.log , if something is present in that file by saying mysqld have no permission to write in a folder. 
-So changing the owner of that folder to mysql user permit to mysqld to write there.
+So change the owner of that folder to mysql user permit to mysqld to write there.
 ```
 sudo chown mysql:mysql /var/run/mariadb
 ```
