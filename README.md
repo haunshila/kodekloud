@@ -23,6 +23,7 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 18. [Linux String Substitute](tasks/LinuxStringSubstitute.md)
 19. [MariaDB Troubleshooting](tasks/MariaDB.md)
 20. [Linux String Substitute (sed)](tasks/sed.md)
+21. [Selinux Installation](tasks/selinux.md)
 
 
 
