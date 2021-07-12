@@ -106,3 +106,6 @@ For more details, refer man pages.
 ```
 $ man rsync
 ```
+
+Ref:
+    1. https://www.cyberciti.biz/faq/how-do-i-find-all-the-files-owned-by-a-particular-user-or-group/
