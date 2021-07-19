@@ -14,3 +14,16 @@ Here’s what those switches actually mean:
 tar -czvf archive.tar.gz /home/ubuntu/Downloads /usr/local/stuff /home/ubuntu/Documents/notes.txt
 
 ```
+
+
+### zip sepcific folder
+```
+zip OPTIONS ARCHIVE_NAME FILES
+```
+some options in above command
+* -e : to encrypt and archieve
+* -r : copy recursively including subdirectories
+* -q : to suppress the output of compress command
+
+Ref:-
+* https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/
