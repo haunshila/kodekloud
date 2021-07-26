@@ -26,6 +26,6 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 21. [Selinux Installation](tasks/selinux.md)
 22. [Linux Aceess Control Lists](tasks/ACLs.md)
 23. [Linux Archives](tasks/linux-archives.md)
-
+24. [Linux Bash Script](tasks/linux-bash.md)
 
 
