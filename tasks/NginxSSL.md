@@ -1,4 +1,4 @@
-### Linxu Nginx SSL
+### Linux Nginx SSL
 
 #### Install nginx
 ```
