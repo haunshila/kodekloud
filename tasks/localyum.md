@@ -15,7 +15,7 @@ cd /etc/yum.repos.d/
 vi localyum.repo
 ```
 * put below content in localyum.repo,  set Repository ID as asked in question
-
+```
 [localyum]
 
 name=localyum
