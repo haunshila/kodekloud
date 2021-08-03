@@ -13,3 +13,33 @@ sudo iptables-save > /etc/sysconfig/iptables
 ```
 cat /etc/sysconfig/iptables
 ```
+
+Restart ipatables
+```
+systemctl start iptables
+# OR
+systemclt restart iptables
+```
+
+### Application Security: block all incoport request on port 8400 and accept all request on 8000
+* First check iptables service is running
+```
+systemctl status iptables
+```
+* Start and enable as a service 
+```
+systemctl start iptables
+systemctl enable iptables
+```
+* block all request from port 6400 and accept all from port 8000 
+```
+iptables -I INPUT -p tcp --destination-port 6400 -j DROP
+
+iptables -I INPUT -p tcp --destination-port 8000  -j ACCEPT
+
+service iptables save
+```
+* check the applied rules
+```
+iptables -L
+```
