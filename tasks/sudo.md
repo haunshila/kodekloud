@@ -21,7 +21,7 @@ RHEL/CentOS and Debian
 adduser mynewusername
 ```
 
-*Enable Passwordless Sudo For User rose in Linux
+* Enable Passwordless Sudo For User rose in Linux
 
   * Edit sudoers file: sudo nano /etc/sudoers
   * Find a line which contains includedir /etc/sudoers.d
