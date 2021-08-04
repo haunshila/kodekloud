@@ -29,3 +29,4 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 24. [Linux Bash Script](tasks/linux-bash.md)
 25. [Configure Local Yum repos](tasks/localyum.md)
 26. [Install and setup postfix & dovecot](tasks/PostfixDovecot.md)
+27. [Configure sudo](tasks/sudo.md)
