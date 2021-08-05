@@ -30,3 +30,4 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 25. [Configure Local Yum repos](tasks/localyum.md)
 26. [Install and setup postfix & dovecot](tasks/PostfixDovecot.md)
 27. [Configure sudo](tasks/sudo.md)
+28. [Apache Redirects](tasks/ApacheRedirects.md)
