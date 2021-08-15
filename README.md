@@ -33,5 +33,5 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 28. [Apache Redirects](tasks/ApacheRedirects.md)
 
 ### DevOps
-1. [Kubernetes Time Check Pod] (tasks/KubernetesTimeCheck.md)
+1. [Kubernetes Time Check Pod](tasks/KubernetesTimeCheck.md)
 
