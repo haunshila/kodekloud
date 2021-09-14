@@ -35,3 +35,4 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 ### DevOps
 1. [Kubernetes Time Check Pod](tasks/KubernetesTimeCheck.md)
 2. [Create ReplicaSet](tasks/ReplicaSet.md)
+3. [Puppet Setup File Permissions](tasks/PuppetFilePermissions.md)
