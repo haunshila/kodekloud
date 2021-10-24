@@ -1,12 +1,14 @@
 ### Deploy MySQL on Kubernetes	
 
-* Create secrets first to reference in deployment further.
+* First, Create secrets to reference it in deployment further.
 ```
 kubectl create secret generic mysql-root-pass \
   --from-literal=password=YUIidhb667
+  
 kubectl create secret generic mysql-user-pass \
   --from-literal=username=kodekloud_sam \
   --from-literal=password=Rc5C9EyvbU
+  
 kubectl create secret generic mysql-db-url \
   --from-literal=database=kodekloud_db3
 
