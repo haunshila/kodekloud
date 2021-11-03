@@ -45,4 +45,4 @@ status: {}
 ```
 
 * References:
-- https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/
+  - https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/
