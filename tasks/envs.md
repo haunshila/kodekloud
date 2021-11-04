@@ -1,6 +1,13 @@
 ### Environment variables in Kubernetes
 
-* YAML for the pod with environment from fieldRef
+* 
+
+* Create envars.yaml file.YAML for the pod with environment from fieldRef
+
+```
+# update image, and environment variables according to your question
+vi envars.yaml
+```
 ```
 apiVersion: v1
 kind: Pod
@@ -42,6 +49,11 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Never
 status: {}
+```
+
+* create pod file with above yaml
+```
+kubectl apply -f envars.yaml
 ```
 
 * References:
