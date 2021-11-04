@@ -1,6 +1,6 @@
 ### Environment variables in Kubernetes
 
-* 
+
 
 * Create envars.yaml file.YAML for the pod with environment from fieldRef
 
