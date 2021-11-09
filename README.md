@@ -38,3 +38,4 @@ This repository contains KodeKloud Engineer tasks solutions along with reference
 3. [Puppet Setup File Permissions](tasks/PuppetFilePermissions.md)
 4. [Deploy MySQL on Kubernetes](tasks/DeployMySQL.md)
 5. [Environment Variables in Kubernetes](tasks/envs.md)
+6. [Docker EXEC Operations](tasks/exec.md)
